@@ -11,6 +11,11 @@ export class PlanAlimenticio {
   addObjetivo(obj) {
     this.objetivos.push(obj);
   }
+
+  addComidas(comida) {
+    this.comidas.push(comida);
+  }
+
   getCalificacionFinalObjetivos() {
     let porcentajeFinal = 0;
     const objetivoCumplidos = this.objetivos.filter((o) => o.estado);
