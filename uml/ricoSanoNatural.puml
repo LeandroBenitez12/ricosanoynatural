@@ -1,0 +1,43 @@
+class Paciente{
+    nombre;
+    apellido;
+    pesoInicial;
+    edad;
+    sexo;
+    disciplina;
+}
+class Profesional{
+    nombre;
+    apellido;
+    especialidad;
+    matricula;
+
+}
+class PlanAlimenticio{
+    duracion; // puede ser semanal quincenal o mensual
+    pesoActual;
+    medidaCintura;
+    objetivo; // necesito saber si esta cumplido o no
+    calificacion; // %
+    comidas;
+    coleciones;
+    bebidas;
+
+    cantidadTotalComidas();
+    planAlimenticioEsVerde();
+    cantidadTotal
+}
+
+class Comida{
+    tipo; // DM AC
+    descripcion;
+    composiciones;
+}
+
+class Ingrediente{
+    tipo;
+    nombre;
+    porcentaje;
+
+}
+
