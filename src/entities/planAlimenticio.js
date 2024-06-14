@@ -41,14 +41,24 @@ export class PlanAlimenticio {
   }
 
   esFuerteEnProteinas() {
-    let promedioProteinas = false;
-    
-    const comidaProteicas = this.comidas.filter((c) => c.tipo == "AC");
-    promedioProteinas = comidaProteicas.every(
-      (cP) => cP.porcentajeProteinas >= 50
-    );
+    let esProteica = false;
 
-    if (promedioProteinas) {
+    const comidaAC = this.comidas.filter((c) => c.tipo == "AC");
+    comidaAC.filter((cAC)=>c.)
+
+    if (esProteica) {
+      return "fuerte en proteinas";
+    }
+    return "no es fuerte";
+  }
+
+  esBienVerdeElPlan() {
+    let esBienVerde = false;
+
+    const comidaAC = this.comidas.filter((c) => c.tipo == "AC");
+    esBienVerde = comidaAC.every((cP) => cP. >= 50);
+
+    if (esBienVerde) {
       return "fuerte en proteinas";
     }
     return "no es fuerte";
