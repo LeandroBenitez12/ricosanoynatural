@@ -39,4 +39,8 @@ export class PlanAlimenticio {
   cantidadPorTipoComida(tipoComida) {
     return this.comidas.filter((c) => c.tipo == tipoComida).length;
   }
+
+  esFuerteEnProteinas(){
+    
+  }
 }

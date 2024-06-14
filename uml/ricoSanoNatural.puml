@@ -31,13 +31,12 @@ class PlanAlimenticio{
 class Comida{
     tipo; // DM AC
     descripcion;
-    composiciones;
+    ingredientes;
 }
 
 class Ingrediente{
     tipo;
     nombre;
     porcentaje;
-
 }
 
