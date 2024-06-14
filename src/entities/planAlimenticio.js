@@ -35,4 +35,8 @@ export class PlanAlimenticio {
   cantidadComidas() {
     return this.comidas.length;
   }
+
+  cantidadPorTipoComida(tipoComida) {
+    return this.comidas.filter((c) => c.tipo == tipoComida).length;
+  }
 }
