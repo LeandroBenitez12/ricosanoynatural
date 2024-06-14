@@ -44,7 +44,7 @@ export class PlanAlimenticio {
     let esProteica = false;
 
     const comidaAC = this.comidas.filter((c) => c.tipo == "AC");
-    comidaAC.filter((cAC)=>c.)
+    comidaAC.filter((cAC)=>cAC.)
 
     if (esProteica) {
       return "fuerte en proteinas";
